@@ -1339,7 +1339,7 @@ if __name__ == "__main__":
     app = QtGui.QApplication(sys.argv)
 
     # Create and display the splash screen
-    splash_pix = QtGui.QPixmap('hourglass_256.png')
+    splash_pix = QtGui.QPixmap('Icons\\hourglass_256.png')
     splash = QtGui.QSplashScreen(splash_pix, QtCore.Qt.WindowStaysOnTopHint)
     splash.setMask(splash_pix.mask())
     splash.show()
