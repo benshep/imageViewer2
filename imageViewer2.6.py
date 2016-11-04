@@ -595,8 +595,8 @@ class Window(QtGui.QWidget):
             self.move(self.config.value('windowPosn'))
         except:
             pass
-        self.setWindowTitle('imageViewer 2.5')
-        self.setWindowIcon(QtGui.QIcon('camera3.ico'))
+        self.setWindowTitle('imageViewer 2.6')
+        self.setWindowIcon(QtGui.QIcon('Icons\\camera3.ico'))
         
         self.imgTime = datetime.now()
         self.imgTimeList = []
